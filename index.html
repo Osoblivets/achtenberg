@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css?_v=20220721104818" />
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@600&family=Poppins:wght@300;400;500;700&display=swap&_v=20220721104818"
+      rel="stylesheet">
+   <script src="js/wow.min.js?_v=20220721104818"></script>
+   <script>
+      new WOW().init();
+   </script>
+   <link rel="stylesheet" href="css/style.min.css?_v=20220721104818">
+   <title>Главная</title>
+</head>
+
+<body>
+   <header class="header">
+   <div class="conteiner">
+      <div class="header__wrapper">
+         <img src="img/logo.svg" alt="" class="header__logo">
+         <div class="header__mobile">
+            <div class="header__btn">
+               <div class="icon nav-icon-5">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+               </div>
+            </div>
+            <div class="header__menu-container">
+               <ul class="header__menu-wrapper">
+                  <li><a href="">Projetos</a></li>
+                  <li><a href="">Sobre mim</a></li>
+                  <li><a href="">Contato</a></li>
+               </ul>
+            </div>
+         </div>
+      </div>
+   </div>
+</header>
+   <main>
+      <section class="hero">
+   <div class="conteiner">
+      <div class="hero__wrapper">
+         <picture><source srcset="img/hero-img.webp" type="image/webp"><img src="img/hero-img.png" alt="hero-img" class="hero__img"></picture>
+         <h2 class="hero__subtitle">Olá, eu sou o Alê 🤙</h2>
+         <h1 class="hero__title">Desenvolvo <span>ideias</span> e ajudo a construir um mundo melhor através do software.
+         </h1>
+         <div class="hero__btns">
+            <a href="#" class="hero__btn">Contato</a>
+            <div class="hero__sub-btn-wrapper">
+               <a href="#" class="hero__sub-btn">Download CV</a>
+               <img src="img/arrow-right.svg" alt="">
+            </div>
+         </div>
+      </div>
+   </div>
+</section>
+      <section class="projects">
+   <div class="conteiner">
+      <h2 class="projects__title">Ultimos <br>Projetos</h2>
+      <div class="swiper">
+         <!-- Additional required wrapper -->
+         <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+               <h3 class="slide__title">E-commerce</h3>
+               <div class="slide__tags">
+                  <span class="slide__teg-react">React</span>
+                  <span class="slide__teg-rest">Rest API</span>
+               </div>
+               <picture><source srcset="img/project-img-1.webp" type="image/webp"><img src="img/project-img-1.png" alt="" class="slide__img"></picture>
+               <div class="slide__links">
+                  <div class="slide__git">
+                     <span><a href="#">Github</a></span>
+                     <img src="img/icon-git.svg" alt="">
+                  </div>
+                  <div class="slide__int">
+                     <span><a href="#">Deploy</a></span>
+                     <img src="img/icon-int.svg" alt="">
+                  </div>
+               </div>
+            </div>
+            <div class="swiper-slide">
+               <h3 class="slide__title">Trybe Course</h3>
+               <div class="slide__tags">
+                  <span class="slide__teg-react">React native</span>
+                  <span class="slide__teg-redux">Redux</span>
+               </div>
+               <picture><source srcset="img/project-img-2.webp" type="image/webp"><img src="img/project-img-2.png" alt="" class="slide__img"></picture>
+               <div class="slide__links">
+                  <div class="slide__git">
+                     <span><a href="#">Github</a></span>
+                     <img src="img/icon-git.svg" alt="">
+                  </div>
+                  <div class="slide__int">
+                     <span><a href="#">Deploy</a></span>
+                     <img src="img/icon-int.svg" alt="">
+                  </div>
+               </div>
+            </div>
+            <div class="swiper-slide">
+               <h3 class="slide__title">Trybetunes</h3>
+               <div class="slide__tags">
+                  <span class="slide__teg-html">HTML</span>
+                  <span class="slide__teg-css">CSS</span>
+                  <span class="slide__teg-js">JS</span>
+                  <span class="slide__teg-redux">Redux</span>
+               </div>
+               <picture><source srcset="img/project-img-3.webp" type="image/webp"><img src="img/project-img-3.png" alt="" class="slide__img"></picture>
+               <div class="slide__links">
+                  <div class="slide__git">
+                     <span><a href="#">Github</a></span>
+                     <img src="img/icon-git.svg" alt="">
+                  </div>
+                  <div class="slide__int">
+                     <span><a href="#">Deploy</a></span>
+                     <img src="img/icon-int.svg" alt="">
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="projects__wrapper">
+         <!-- If we need navigation buttons -->
+         <div class="swiper-button-prev-c"></div>
+         <div class="swiper-button-next-c"></div>
+      </div>
+   </div>
+</section>
+      <section class="about">
+   <div class="conteiner">
+      <div class="about__t-w">
+         <h2 class="about__title">Sobre <br>mim</h2>
+         <img src="img/arrow-bottom.svg" alt="" class="about__arrow-b">
+      </div>
+      <div class="about__wrapper">
+         <div class="about__content">
+            <div class="about__texts">
+               <p class="about__txt">Tenho 20 anos, estou em transição de carreira, vindo da área administrativa onde
+                  desenvolvi experiência com gestão de pessoas, gestão de empresas e negociação com cliente.</p>
+               <p class="about__txt">Hoje construo aplicações fullstack!</p>
+            </div>
+            <div class="about__skills">
+               <h3 class="skills__title">Skills</h3>
+               <div class="skills__wrapper">
+                  <div class="skills__react">
+                     <img src="img/skills-img-1.svg" alt="">
+                     <h5>React</h5>
+                  </div>
+                  <div class="skills__node">
+                     <img src="img/skills-img-2.svg" alt="">
+                     <h5>Node.js</h5>
+                  </div>
+                  <div class="skills__sql">
+                     <img src="img/skills-img-3.svg" alt="">
+                     <h5>MySQL</h5>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <picture><source srcset="img/about-img.webp" type="image/webp"><img src="img/about-img.png" alt="" class="about__img"></picture>
+      </div>
+   </div>
+</section>
+   </main>
+   <footer class="footer">
+   <div class="footer__bg">
+      <div class="conteiner">
+         <div class="footer__wrapper">
+            <div class="footer__content">
+               <h2 class="footer__title">Tem alguma ideia?</h2>
+               <p class="footer__sub-title">Vamos construí-la juntos! </p>
+               <div class="footer__email-w">
+                  <span class="footer__email">hello@achtenberg.io</span>
+               </div>
+               <div class="footer__socials">
+                  <picture><source srcset="img/social-img-1.webp" type="image/webp"><img src="img/social-img-1.png" alt=""></picture>
+                  <picture><source srcset="img/social-img-2.webp" type="image/webp"><img src="img/social-img-2.png" alt=""></picture>
+               </div>
+            </div>
+            <div class="footer__img">
+               <picture><source srcset="img/footer__img.webp" type="image/webp"><img src="img/footer__img.png" alt=""></picture>
+            </div>
+         </div>
+         <div class="footer__bootom-wr">
+            <span class="footer__bottom-text">Developed by Alessandro Achtenberg</span>
+            <div class="footer__bootom-w">
+               <span class="footer__bottom-text">Design by</span>
+               <img src="img/footer-bottom-icon.svg" alt="">
+            </div>
+         </div>
+      </div>
+   </div>
+</footer>
+   <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js?_v=20220721104818"></script>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js?_v=20220721104818"></script>
+   <script src="js/app.min.js?_v=20220721104818"></script>
+   
+</body>
+
+</html>
